@@ -25,7 +25,7 @@ namespace note.Views
         {
             var url = $"https://http://localhost:8080/login";
 
-            var result = await ApiCaller.Get(url);
+            var result = await ApiCaller.Post(url, );
 
             if(result.Successful)
             {

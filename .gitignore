@@ -1,1 +1,23 @@
 #HuskeApp
+
+# Visual Studio (>=2015) project-specific, machine local files
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+*.userprefs
+
+# Xamarin Components
+Components/
+
+# Build results
+Debug/
+DebugPublic/
+Release/
+x64/
+build/
+bld/
+bin/
+obj/

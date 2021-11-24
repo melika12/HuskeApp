@@ -38,7 +38,7 @@ namespace noteObj.Models
         public string name { get; set; }
         public string password { get; set; }
     }
-    //___________________________________________________________________________________note
+    //_____________________________________note__________________________________________
     public class noteIndex
     {
         public int id { get; set; }

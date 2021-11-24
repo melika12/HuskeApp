@@ -17,3 +17,7 @@ C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Deb
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.dll
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\ref\HuskeApp.dll
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.pdb
+D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.csprojAssemblyReference.cache
+D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.dll
+D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\ref\HuskeApp.dll
+D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.pdb
