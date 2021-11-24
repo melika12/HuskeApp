@@ -10,6 +10,9 @@
     
         https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
     -->
+    <Frame BackgroundColor="DeepPink" Padding="24" CornerRadius="0">
+        <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+    </Frame>
 
     <Shell.Resources>
         <ResourceDictionary>
