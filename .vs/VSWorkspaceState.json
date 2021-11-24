@@ -3,8 +3,12 @@
     "",
     "\\huskeApp",
     "\\huskeApp\\huskeApp",
+    "\\huskeApp\\huskeApp.Android",
     "\\huskeApp\\huskeApp\\HuskeApp",
-    "\\huskeApp\\huskeApp\\HuskeApp.Android"
+    "\\huskeApp\\huskeApp\\HuskeApp.Android",
+    "\\huskeApp\\huskeApp\\HuskeApp\\Models",
+    "\\huskeApp\\huskeApp\\HuskeApp\\ViewModels",
+    "\\huskeApp\\huskeApp\\HuskeApp\\Views"
   ],
   "SelectedNode": "\\huskeApp\\HuskeApp.sln",
   "PreviewInSolutionExplorer": false

@@ -1,6 +1,4 @@
-﻿using HuskeApp.Services;
-using HuskeApp.Views;
-using System;
+﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,8 +11,6 @@ namespace HuskeApp
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
         }
 
         protected override void OnStart()

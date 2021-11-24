@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31129.286
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuskeApp.Android", "HuskeApp\HuskeApp.Android\HuskeApp.Android.csproj", "{3F8DCC43-A006-4137-84F2-92520B54AEF3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuskeApp.iOS", "HuskeApp\HuskeApp.iOS\HuskeApp.iOS.csproj", "{841573AE-FF28-4E48-BD75-CE2411138FA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuskeApp", "HuskeApp\HuskeApp\HuskeApp.csproj", "{365FE4E1-E517-48F9-90C6-7A5084C8061E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuskeApp", "HuskeApp\HuskeApp\HuskeApp.csproj", "{365FE4E1-E517-48F9-90C6-7A5084C8061E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

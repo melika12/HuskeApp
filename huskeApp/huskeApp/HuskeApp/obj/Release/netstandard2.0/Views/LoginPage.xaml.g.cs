@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("HuskeApp.Views.LoginPage.xaml", "Views/LoginPage.xaml", typeof(global::HuskeApp.Views.LoginPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("HuskeApp.Views.LoginPage.xaml", "Views/LoginPage.xaml", typeof(global::skrld2.Views.LoginPage))]
 
-namespace HuskeApp.Views {
+namespace skrld2.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\LoginPage.xaml")]

@@ -15,7 +15,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "841573ae-ff28-4e48-bd75-ce2411138fa8": {
+      "ProjectGuid": "841573ae-ff28-4e48-bd75-ce2411138fa8",
+      "DisplayName": "HuskeApp.iOS",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

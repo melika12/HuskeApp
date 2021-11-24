@@ -1,6 +1,4 @@
 ﻿using huskeApi.Helper;
-using noteObj.Models;
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,32 +8,31 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace note.Views
+namespace HuskeApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class note : note
+    public partial class login : ContentPage
     {
-        public note()
+        public login()
         {
             InitializeComponent();
             GetLogin();
         }
-
         private async void GetLogin()
         {
-            var url = $"https://http://localhost:8080/login";
+            var url = $"http://localhost:8080/login";
 
-            var result = await ApiCaller.Post(url, );
+            var result = await ApiCaller.Get(url);
 
-            if(result.Successful)
+            if (result.Successful)
             {
                 try
                 {
-                    
+
                 }
                 catch (Exception ex)
                 {
-                   
+
                 }
             }
             else
@@ -53,7 +50,7 @@ namespace note.Views
             {
                 try
                 {
-                    
+
                 }
                 catch (Exception ex)
                 {

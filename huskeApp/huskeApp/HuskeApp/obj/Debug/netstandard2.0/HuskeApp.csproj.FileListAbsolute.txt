@@ -1,15 +1,15 @@
+D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.csprojAssemblyReference.cache
+D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.dll
+D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\ref\HuskeApp.dll
+D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.pdb
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\bin\Debug\netstandard2.0\HuskeApp.deps.json
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\bin\Debug\netstandard2.0\HuskeApp.dll
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\bin\Debug\netstandard2.0\ref\HuskeApp.dll
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\bin\Debug\netstandard2.0\HuskeApp.pdb
+C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.csproj.AssemblyReference.cache
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
-C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
-C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
-C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
-C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
-C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\Views\login.xaml.g.cs
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.AssemblyInfoInputs.cache
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.AssemblyInfo.cs
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.csproj.CoreCompileInputs.cache
@@ -17,7 +17,3 @@ C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Deb
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.dll
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\ref\HuskeApp.dll
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.pdb
-D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.csprojAssemblyReference.cache
-D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.dll
-D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\ref\HuskeApp.dll
-D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.pdb
