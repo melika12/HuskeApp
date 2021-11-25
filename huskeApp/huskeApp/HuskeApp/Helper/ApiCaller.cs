@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace huskeApi.Helper
 {
     public class ApiCaller
     {
-        public static async Task<ApiResponse> Get(string url, string authId = null)
+        public static async Task<ApiResponse> Get(string url)
         {
             using (var client = new HttpClient())
             {
@@ -40,21 +37,28 @@ namespace huskeApi.Helper
             else
                 return new ApiResponse { ErrorMessage = response.ReasonPhrase };
         }
-<<<<<<< HEAD
         public static async Task<ApiResponse> Delete(string url)
         {
             HttpClient client = new HttpClient();
-            //StringContent queryString = new StringContent(data);
 
             var response = await client.DeleteAsync(new Uri(url));
-=======
+            response.EnsureSuccessStatusCode();
+            string responseBody = await response.Content.ReadAsStringAsync();
+
+            if (response.IsSuccessStatusCode)
+            {
+                return new ApiResponse { Response = responseBody };
+            }
+            else
+                return new ApiResponse { ErrorMessage = response.ReasonPhrase };
+        }
+
         public static async Task<ApiResponse> Put(string url, string data)
         {
             HttpClient client = new HttpClient();
             StringContent queryString = new StringContent(data);
 
             var response = await client.PutAsync(new Uri(url), queryString);
->>>>>>> 567c9d4dda1410ecdbcbb3eb1af9189874de24df
 
             response.EnsureSuccessStatusCode();
             string responseBody = await response.Content.ReadAsStringAsync();

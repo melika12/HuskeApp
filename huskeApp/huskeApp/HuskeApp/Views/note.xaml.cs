@@ -18,14 +18,12 @@ namespace HuskeApp.Views
         }
         private async void GetNotes()
         {
-            //var result = await ApiCaller.Get("http://192.168.1.54:8080/notes/index");
-            var result = await ApiCaller.Get("http://192.168.100.131:8080/notes/index");
+            var result = await ApiCaller.Get("http://192.168.1.54:8080/notes/index");
+            //var result = await ApiCaller.Get("http://192.168.100.131:8080/notes/index");
             if (result.Successful)
             {
                 var notes = JsonConvert.DeserializeObject<List<Note>>(result.Response);
                 List<List<Note>> noteList = new List<List<Note>>();
-                //var row = 0;
-                //var column = 0;
 
                 foreach (var note in notes)
                 {
@@ -62,12 +60,7 @@ namespace HuskeApp.Views
                         
                         //Clicked = DeleteNotes(note.Id);
                     };
-<<<<<<< HEAD
-                    
-=======
 
-
->>>>>>> 567c9d4dda1410ecdbcbb3eb1af9189874de24df
                     stackLayout.Children.Add(noteName);
                     stackLayout.Children.Add(noteDescription);
                     stackLayout.Children.Add(edit);
@@ -76,12 +69,10 @@ namespace HuskeApp.Views
                     delete.Clicked += async (sender, args) =>
                     {
                         await ApiCaller.Delete("http://192.168.1.54:8080/note/delete/" + note.Id);
+                        //await ApiCaller.Delete("http://192.168.100.131:8080/note/delete/" + note.Id);
                         await Navigation.PushModalAsync(new note());
                     };
-
-
                 }
-
             }
             else
             {
@@ -94,5 +85,4 @@ namespace HuskeApp.Views
             Navigation.PushModalAsync(new addNote());
         }
     }
-        
 }
