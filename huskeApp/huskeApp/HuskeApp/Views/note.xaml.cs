@@ -19,6 +19,7 @@ namespace HuskeApp.Views
         private async void GetNotes()
         {
             var result = await ApiCaller.Get("http://192.168.1.54:8080/notes/index");
+            //var result = await ApiCaller.Get("http://192.168.100.131:8080/notes/index");
             if (result.Successful)
             {
                 var notes = JsonConvert.DeserializeObject<List<Note>>(result.Response);
@@ -65,6 +66,11 @@ namespace HuskeApp.Views
             {
                 // password.Text = "blablabla";
             }
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new addNote());
         }
     }
 }

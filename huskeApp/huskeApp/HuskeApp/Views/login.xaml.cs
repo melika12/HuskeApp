@@ -1,11 +1,5 @@
 ﻿using huskeApi.Helper;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -22,9 +16,10 @@ namespace HuskeApp.Views
         {
             var name = username.Text;
             var pwd = password.Text;
-            var data = "{\"name\": \"" + name + "\"password\": \"" + pwd + "\"}";
+            var data = "{\"name\": \"" + name + "\", \"password\": \"" + pwd + "\"}";
             //DIN IP SKAL STÅ HER UNDER MED MINDRE API'EN KØRE I SKYEN!!!!!!!!!!!!!!!!!!!!!!!!!!!
             var result = await ApiCaller.Post("http://192.168.1.54:8080/login", data);
+            //var result = await ApiCaller.Post("http://192.168.100.131:8080/login", data);
             if (result.Successful)
             {
                 await Navigation.PushModalAsync(new note());
