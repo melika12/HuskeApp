@@ -40,6 +40,23 @@ namespace huskeApi.Helper
             else
                 return new ApiResponse { ErrorMessage = response.ReasonPhrase };
         }
+        public static async Task<ApiResponse> Delete(string url)
+        {
+            HttpClient client = new HttpClient();
+            //StringContent queryString = new StringContent(data);
+
+            var response = await client.DeleteAsync(new Uri(url));
+
+            response.EnsureSuccessStatusCode();
+            string responseBody = await response.Content.ReadAsStringAsync();
+
+            if (response.IsSuccessStatusCode)
+            {
+                return new ApiResponse { Response = responseBody };
+            }
+            else
+                return new ApiResponse { ErrorMessage = response.ReasonPhrase };
+        }
     }
 
     public class ApiResponse

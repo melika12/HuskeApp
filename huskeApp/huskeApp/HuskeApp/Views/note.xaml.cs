@@ -22,7 +22,7 @@ namespace HuskeApp.Views
             if (result.Successful)
             {
                 var notes = JsonConvert.DeserializeObject<List<Note>>(result.Response);
-                List<List <Note>> noteList = new List<List <Note>>();
+                List<List<Note>> noteList = new List<List<Note>>();
                 //var row = 0;
                 //var column = 0;
 
@@ -50,16 +50,24 @@ namespace HuskeApp.Views
                     {
                         Text = "Delete",
                         FontSize = 10,
+                        ClassId = note.Id,
+                        
+                        //Clicked = DeleteNotes(note.Id);
                     };
-                    
                     
                     stackLayout.Children.Add(noteName);
                     stackLayout.Children.Add(noteDescription);
                     stackLayout.Children.Add(delete);
                     noteGrid.Children.Add(stackLayout);
+                    delete.Clicked += async (sender, args) =>
+                    {
+                        await ApiCaller.Delete("http://192.168.1.54:8080/note/delete/" + note.Id);
+                        await Navigation.PushModalAsync(new note());
+                    };
+
 
                 }
-                
+
             }
             else
             {
@@ -67,4 +75,5 @@ namespace HuskeApp.Views
             }
         }
     }
+        
 }
