@@ -773,11 +773,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ifane\\Source\\Repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp\\HuskeApp.csproj",
+      "projectUniqueName": "C:\\Users\\ifane\\source\\repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp\\HuskeApp.csproj",
       "projectName": "HuskeApp",
-      "projectPath": "C:\\Users\\ifane\\Source\\Repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp\\HuskeApp.csproj",
+      "projectPath": "C:\\Users\\ifane\\source\\repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp\\HuskeApp.csproj",
       "packagesPath": "C:\\Users\\ifane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ifane\\Source\\Repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp\\obj\\",
+      "outputPath": "C:\\Users\\ifane\\source\\repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

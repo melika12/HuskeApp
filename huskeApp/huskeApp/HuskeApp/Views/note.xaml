@@ -4,7 +4,7 @@
              x:Class="HuskeApp.Views.note">
     <ScrollView>
         <StackLayout x:Name="noteGrid" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-
+            <Button Text="Add note" Clicked="Button_Clicked"></Button>
         </StackLayout>
     </ScrollView>
 </ContentPage>

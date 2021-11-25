@@ -1164,11 +1164,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ifane\\Source\\Repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp.iOS\\HuskeApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\ifane\\source\\repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp.iOS\\HuskeApp.iOS.csproj",
       "projectName": "HuskeApp.iOS",
-      "projectPath": "C:\\Users\\ifane\\Source\\Repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp.iOS\\HuskeApp.iOS.csproj",
+      "projectPath": "C:\\Users\\ifane\\source\\repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp.iOS\\HuskeApp.iOS.csproj",
       "packagesPath": "C:\\Users\\ifane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ifane\\Source\\Repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\ifane\\source\\repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1189,8 +1189,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\ifane\\Source\\Repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp\\HuskeApp.csproj": {
-              "projectPath": "C:\\Users\\ifane\\Source\\Repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp\\HuskeApp.csproj"
+            "C:\\Users\\ifane\\source\\repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp\\HuskeApp.csproj": {
+              "projectPath": "C:\\Users\\ifane\\source\\repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp\\HuskeApp.csproj"
             }
           }
         }
