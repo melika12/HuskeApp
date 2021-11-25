@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qpGgeGuNz8A+ED3x4I2ZEc8wueONn4WZj/vNixaWj5lRYggsqmK0x5quSkVnfoL1Y2QihuutUTNoFXIOG8RFzw==",
+  "dgSpecHash": "JoaUnPIsgPZ17uRH7PedxJGCf1xrbKUXc6koJWRGTdoAGVgHw08Vd0vG6fr+rE6fFVJK+YZk+Q1Ux6HUoAZjtg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ifane\\Source\\Repos\\melika12\\HuskeApp\\huskeApp\\HuskeApp\\HuskeApp.iOS\\HuskeApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ifane\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\ifane\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\ifane\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\ifane\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\ifane\\.nuget\\packages\\xamarin.forms\\5.0.0.2244\\xamarin.forms.5.0.0.2244.nupkg.sha512"

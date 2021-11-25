@@ -5,7 +5,7 @@ using System.Diagnostics;
 using Xamarin.Forms;
 using HuskeApp.Services;
 using HuskeApp.ViewModels;
-
+using Newtonsoft.Json;
 
 namespace HuskeApp.ViewModels
 {
@@ -67,6 +67,7 @@ namespace HuskeApp.ViewModels
     }
     public class Note
     {
+        [JsonProperty("ID")]
         public string Id { get; set; }
         public string Name { get; set; }
         public string TimeOfEvent { get; set; }
