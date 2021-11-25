@@ -23,40 +23,50 @@ namespace HuskeApp.Views
             {
                 var notes = JsonConvert.DeserializeObject<List<Note>>(result.Response);
                 List<List <Note>> noteList = new List<List <Note>>();
+                var row = 0;
+                var column = 0;
+
                 foreach (var note in notes)
                 {
                     new Note { Id = Guid.NewGuid().ToString(), Name = note.Name, Description = note.Description };
-
                     Grid myNote = new Grid
                     {
-                        RowDefinitions =
+                        /*RowDefinitions =
                         {
                             new RowDefinition { Height = new GridLength(2, GridUnitType.Star) },
-                            new RowDefinition(),
-                            new RowDefinition { Height = new GridLength(100) }
                         },
                         ColumnDefinitions =
                         {
-                            new ColumnDefinition(),
-                            new ColumnDefinition()
-                        },
-                        ClassId = note.Id
+                            new ColumnDefinition(){ Width = new GridLength(2, GridUnitType.Star) },
+                        },*/
+                        ClassId = note.Id,
+                        //HeightRequest = 10
                     };
-                    myNote.Children.Add(new Label
+                    
+                    var stackLayout = new StackLayout
                     {
-                        Text = note.Name,
-                        HorizontalOptions = LayoutOptions.Center,
-                        VerticalOptions = LayoutOptions.Center
-                    });
-                    myNote.Children.Add(new Label
-                    {
-                        Text = note.Description,
-                        HorizontalOptions = LayoutOptions.Center,
-                        VerticalOptions = LayoutOptions.Center
-                    });
+                        
+                        Padding = new Thickness(0, 20, 0, 0),
+                        Children = {
+                            //new BoxView {Color = Color.Aqua},
+                            new Label { Text = note.Name },
+                            new Label { Text = note.Description }
+                        }
+                    };
+                    
+                    myNote.Children.Add(stackLayout, row, column);
+                    //myNote.Children.Add(stackLayoutDec, row, column+1);
+
+                    //row++;
+                    
+                    //myNote.Children.Add(stackLayout);
+                    //myNote.Children.Add(stackLayoutDec);
                     noteGrid.Children.Add(myNote);
+                    column++;
+                    //Height += 100;
 
                 }
+                
             }
             else
             {
