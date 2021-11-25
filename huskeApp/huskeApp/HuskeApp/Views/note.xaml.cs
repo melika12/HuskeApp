@@ -23,47 +23,40 @@ namespace HuskeApp.Views
             {
                 var notes = JsonConvert.DeserializeObject<List<Note>>(result.Response);
                 List<List <Note>> noteList = new List<List <Note>>();
-                var row = 0;
-                var column = 0;
+                //var row = 0;
+                //var column = 0;
 
                 foreach (var note in notes)
                 {
                     new Note { Id = Guid.NewGuid().ToString(), Name = note.Name, Description = note.Description };
-                    Grid myNote = new Grid
-                    {
-                        /*RowDefinitions =
-                        {
-                            new RowDefinition { Height = new GridLength(2, GridUnitType.Star) },
-                        },
-                        ColumnDefinitions =
-                        {
-                            new ColumnDefinition(){ Width = new GridLength(2, GridUnitType.Star) },
-                        },*/
-                        ClassId = note.Id,
-                        //HeightRequest = 10
-                    };
-                    
                     var stackLayout = new StackLayout
                     {
-                        
-                        Padding = new Thickness(0, 20, 0, 0),
-                        Children = {
-                            //new BoxView {Color = Color.Aqua},
-                            new Label { Text = note.Name },
-                            new Label { Text = note.Description }
-                        }
+                        Orientation = StackOrientation.Vertical,
+                        Margin = new Thickness(20),
+                        Spacing = 0,
+                        ClassId = note.Id,
+                    };
+                    Label noteName = new Label
+                    {
+                        Text = note.Name,
+                        FontSize = 15,
+                    };
+                    Label noteDescription = new Label
+                    {
+                        Text = note.Description,
+                        FontSize = 15,
+                    };
+                    Button delete = new Button
+                    {
+                        Text = "Delete",
+                        FontSize = 10,
                     };
                     
-                    myNote.Children.Add(stackLayout, row, column);
-                    //myNote.Children.Add(stackLayoutDec, row, column+1);
-
-                    //row++;
                     
-                    //myNote.Children.Add(stackLayout);
-                    //myNote.Children.Add(stackLayoutDec);
-                    noteGrid.Children.Add(myNote);
-                    column++;
-                    //Height += 100;
+                    stackLayout.Children.Add(noteName);
+                    stackLayout.Children.Add(noteDescription);
+                    stackLayout.Children.Add(delete);
+                    noteGrid.Children.Add(stackLayout);
 
                 }
                 

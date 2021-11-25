@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HuskeApp.Views.note">
     <ScrollView>
-        <Grid x:Name="noteGrid">
+        <StackLayout x:Name="noteGrid" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 
-        </Grid>
+        </StackLayout>
     </ScrollView>
 </ContentPage>
