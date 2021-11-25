@@ -18,8 +18,8 @@ namespace HuskeApp.Views
         }
         private async void GetNotes()
         {
-            var result = await ApiCaller.Get("http://192.168.1.54:8080/notes/index");
-            //var result = await ApiCaller.Get("http://192.168.100.131:8080/notes/index");
+            //var result = await ApiCaller.Get("http://192.168.1.54:8080/notes/index");
+            var result = await ApiCaller.Get("http://192.168.100.131:8080/notes/index");
             if (result.Successful)
             {
                 var notes = JsonConvert.DeserializeObject<List<Note>>(result.Response);
@@ -47,15 +47,23 @@ namespace HuskeApp.Views
                         Text = note.Description,
                         FontSize = 15,
                     };
+                    Button edit = new Button
+                    {
+                        Text = "Edit",
+                        FontSize = 10,
+                        ClassId = note.Id
+                    };
+                    edit.Clicked += async (sender, args) => await Navigation.PushModalAsync(new editNote(note.Id, note.Name, note.Description));
                     Button delete = new Button
                     {
                         Text = "Delete",
                         FontSize = 10,
                     };
-                    
-                    
+
+
                     stackLayout.Children.Add(noteName);
                     stackLayout.Children.Add(noteDescription);
+                    stackLayout.Children.Add(edit);
                     stackLayout.Children.Add(delete);
                     noteGrid.Children.Add(stackLayout);
 

@@ -30,3 +30,4 @@ D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\Husk
 D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\Views\addNote.xaml.g.cs
 D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.csprojAssemblyReference.cache
+D:\Melika\School\H5\Server -og app programmering\HuskeApp\HuskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\Views\editNote.xaml.g.cs
