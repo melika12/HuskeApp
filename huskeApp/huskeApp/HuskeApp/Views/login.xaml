@@ -2,11 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HuskeApp.Views.login">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    
+    <StackLayout>
+        <Entry x:Name="username" Placeholder="Username" HorizontalTextAlignment="Center" FontSize="36"></Entry>
+        <Entry x:Name="password" Placeholder="Password" IsPassword="True" HorizontalTextAlignment="Center" FontSize="36"></Entry>
+        <Button Text="Login" Clicked="Button_Clicked"></Button>
+    </StackLayout>
 </ContentPage>

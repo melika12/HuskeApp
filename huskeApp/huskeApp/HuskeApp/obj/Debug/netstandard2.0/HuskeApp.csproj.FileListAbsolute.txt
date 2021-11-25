@@ -17,3 +17,4 @@ C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Deb
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.dll
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\ref\HuskeApp.dll
 C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\HuskeApp.pdb
+C:\Users\ifane\Source\Repos\melika12\HuskeApp\huskeApp\HuskeApp\HuskeApp\obj\Debug\netstandard2.0\Views\note.xaml.g.cs

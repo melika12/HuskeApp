@@ -25,7 +25,23 @@ namespace huskeApi.Helper
                     return new ApiResponse { ErrorMessage = request.ReasonPhrase };
             }
         }
+        public static async Task<ApiResponse> Post(string url, string data)
+        {
+            HttpClient client = new HttpClient();
+            StringContent queryString = new StringContent(data);
 
+            var response = await client.PostAsync(new Uri(url), queryString);
+
+            response.EnsureSuccessStatusCode();
+            string responseBody = await response.Content.ReadAsStringAsync();
+
+            if (response.IsSuccessStatusCode)
+            {
+                return new ApiResponse { Response = responseBody };
+            }
+            else
+                return new ApiResponse { ErrorMessage = response.ReasonPhrase };
+        }
     }
 
     public class ApiResponse

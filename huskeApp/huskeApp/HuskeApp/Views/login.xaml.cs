@@ -16,50 +16,21 @@ namespace HuskeApp.Views
         public login()
         {
             InitializeComponent();
-            GetLogin();
         }
-        private async void GetLogin()
+        private async void Button_Clicked(object sender, EventArgs e)
         {
-            var url = $"http://localhost:8080/login";
-
-            var result = await ApiCaller.Get(url);
-
+            var name = username.Text;
+            var pwd = password.Text;
+            var data = "{\"name\": \"" + name + "\"password\": \"" + pwd + "\"}";
+            //DIN IP SKAL STÅ HER UNDER MED MINDRE API'EN KØRE I SKYEN!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            var result = await ApiCaller.Post("http://192.168.1.54:8080/login", data);
             if (result.Successful)
             {
-                try
-                {
-
-                }
-                catch (Exception ex)
-                {
-
-                }
+                await Navigation.PushModalAsync(new note());
             }
             else
             {
-                await DisplayAlert("note", "No notes found", "OK");
-            }
-        }
-
-        private async void GetNotes()
-        {
-            var url = $"http://http://localhost:8080/notes/index";
-            var result = await ApiCaller.Get(url);
-
-            if (result.Successful)
-            {
-                try
-                {
-
-                }
-                catch (Exception ex)
-                {
-                    await DisplayAlert("note Info", ex.Message, "OK");
-                }
-            }
-            else
-            {
-                await DisplayAlert("note Info", "No notes found", "OK");
+                password.Text = "blablabla";
             }
         }
     }

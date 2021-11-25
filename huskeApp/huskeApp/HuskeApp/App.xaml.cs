@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using HuskeApp.Views;
 
 namespace HuskeApp
 {
@@ -10,6 +11,7 @@ namespace HuskeApp
         public App()
         {
             InitializeComponent();
+            MainPage = new login();
 
         }
 
